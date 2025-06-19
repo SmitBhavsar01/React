@@ -1,0 +1,44 @@
+=========================
+CREATE { Vite + React } APP
+=========================
+
+npm create vite@latest 
+----------------------
+-give project name
+-select framework : React
+-select a variant: javascript
+-cd project_name
+-npm install
+
+========================
+INSTALL  { Tailwind }
+========================
+
+=> In your project in terminal type: 
+
+-- npm install tailwindcss @tailwindcss/vite
+
+=> Now open vite.config.js  :
+    import tailwindcss from '@tailwindcss/vite'
+
+     plugins: [
+    tailwindcss(),
+     ]
+
+=> Now open your css file(index.css or any other):
+
+    clean it and paste below text:
+    -- @import "tailwindcss";
+
+=> Now open index.html add  this :
+    
+     <link href="/src/index.css" rel="stylesheet"> 
+     
+
+==============================
+INSTALL  { React Router Dom }
+==============================
+
+=> In your project in terminal :
+
+-- npm install react-router-dom 
