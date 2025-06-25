@@ -4,26 +4,32 @@ import { addTodo } from '../features/todo/todoSlice'
 
 
 function AddTodo() {
-    const [input, setInput] = useState('')
-    const dispatch = useDispatch()
-    const addTodoHandler = (e) => {
-        e.preventDefault()
-        dispatch(addTodo(input))
-        setInput('') // Clear input after adding todo
-
+  const [input, setInput] = useState('')
+  const dispatch = useDispatch()
+  const addTodoHandler = (e) => {
+    e.preventDefault()
+    if (input.trim() === '') {
+      alert('Please enter a todo')
+      return
+    } else {
+      dispatch(addTodo(input.trim()))
     }
+
+    setInput('') // Clear input after adding todo
+
+  }
   return (
     <form onSubmit={addTodoHandler} className="space-x-4 mt-12">
       <input
         type="text"
-        className="bg-gray-800 rounded border-2 border-gray-700 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-700 text-base outline-none text-gray-100 py-1.5 px-3  leading-8 transition-colors duration-200 ease-in-out"
+        className="bg-gray-800 rounded border-2 border-gray-700 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-700  outline-none text-white py-1.5 px-3  leading-8 transition-colors duration-200 ease-in-out text-xl"
         placeholder="Enter a Todo..."
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
       <button
         type="submit"
-        className="text-white bg-indigo-500 border-[1.5px] border-indigo-800 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+        className="text-white bg-indigo-500 border-[1.5px] border-indigo-800 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-xl"
       >
         Add Todo
       </button>

@@ -6,11 +6,11 @@ import AddTodo from './components/AddTodo'
 import Todos from './components/Todos'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <h1 className="text-3xl font-bold">Todo Using Redux</h1>
+      <h1 className="text-5xl font-bold">Todo Using Redux</h1>
       <AddTodo />
       <Todos />
     </>
