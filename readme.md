@@ -90,10 +90,3 @@ GitHub: [@SmitBhavsar01](https://github.com/SmitBhavsar01)
 ## 📌 License
 
 This repo is for educational purposes. No official license.
-
-### ✅ Optional: Add Visitor Badge (just for fun!)
-
-You can add this **below the existing shields**:
-
-```markdown
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=SmitBhavsar01.react-practice-projects)](https://github.com/SmitBhavsar01/react-practice-projects)
