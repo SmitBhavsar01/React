@@ -2,7 +2,6 @@
 
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![Powered by Vite](https://img.shields.io/badge/Powered%20by-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=SmitBhavsar01.react-practice-projects)](https://github.com/SmitBhavsar01/react-practice-projects)
 
 Welcome to my **React Practice Repository**!  
 This repo contains a collection of mini React apps and components I built while learning and mastering React — from basics like `useState` and props to advanced concepts like `Context API`, `Redux Toolkit`, and API integrations.
