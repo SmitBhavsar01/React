@@ -75,7 +75,7 @@ Each folder is a separate project focusing on one or more React topics:
 
 ## 📚 Credits
 
-- Tutorials by **ChaiCode** (YouTube)
+- Tutorials by **Chai aur Code** (YouTube)
 
 ---
 
